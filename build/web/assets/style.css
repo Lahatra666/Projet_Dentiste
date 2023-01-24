@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+body{
+	font-family: 'Advent Pro', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none; 
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+header nav{
+	overflow: hidden;
+	background-color: #0388c3;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+	padding: 0;
+}
+header li{
+	float: right;
+	font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px/*haut bas*/ 16px/* gauche droite*/;
+}
+#logo {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	float: left;
+    position: relative;
+    top: 15px;
+    color: white;
+}
+#imagePrincipale{
+	padding-top: 60px;
+	background: url('../css/back.jpg') no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 600px;
+}
+
+#imagePrincipale img{
+    background-size: cover;
+    background: url('css/back.jpg') no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: white;
+	font-size: 6em;
+	margin-top: 100px;
+	text-shadow: 1px 3px 2px black;
+}
+
+#premierTrait{
+	height: 1px;
+	width: 25%;
+	margin: -3px auto;
+	background-color: white;
+	box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	text-shadow: 1px 3px 2px black;
+}
+
+#containt{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    top: -40px;
+    margin-left: 80px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 150%;
+    border-radius: 12px 10px 12px 12px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card a:hover{
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.4s ease-in-out;
+}
+
+.card img{
+	width: 300px;
+	height: 230px;
+}
+
+.card h4{
+	color: #77767c;
+}
+
+.card h1{
+    color: burlywood;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.card .text{
+    font-size: 15px;
+    font-weight: 200;
+	font-family: Arial, Helvetica, sans-serif;
+	color:  #77767c;
+}

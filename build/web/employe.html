@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome-5/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/employe.css">
+    <link rel="stylesheet"  href="css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Liste des employes</title>
+    <style>
+        body{
+	        font-family: 'Advent Pro', sans-serif;
+	        padding: 0;
+	        margin: 0;
+        }
+        #logo {
+            font-family: 'Dancing Script', cursive;
+            font-weight: bold;
+            float: left;
+            position: relative;
+            top: 15px;
+            color: white;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        a{
+	        text-decoration: none;
+	        color: white;
+        }
+
+        header li{
+            float: right;
+            font-size: 1.4em;
+        }
+
+        header li a {
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            padding: 18px/*haut bas*/ 16px/* gauche droite*/;
+        }
+        header nav{
+            overflow: hidden;
+            background-color: #0388c3;
+            width: 100%;
+            opacity: 0.9;
+            padding: 0;
+        }
+        .container-fluid{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container-fluid a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <header>
+            <nav>
+                <ul>
+                    <li id="logo">DentistCity</li>
+                    <li><a href="">Déconnexion</a></li>
+                    <li><a href="">Statistiques</a></li>
+                    <li><a href="">Bénéfices et Charges</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">Rendez-Vous</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="employe.html">Employés</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container-fluid">
+        <div class="panel panel-default">
+            <table class="table">
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Date de naissance</th>
+                        <th>Niveau</th>
+                        <th>Spécialité</th>
+                        <th>Action</th>
+                        <th>Ajouter spécialité</th>
+                    </tr>
+                    <tr>
+                        <td>Rabe</td>
+                        <td>Lahatra</td>
+                        <td>2000-12-03</td>
+                        <td>License</td>
+                        <td>Détartrage</td>
+                        <td><a href="">Modifier</a></td>
+                        <td><a href="">Ajouter Spécialité</a></td>
+                    </tr>
+            </table>
+          </div>
+          <a href="Ajout.html" class="btn btn-primary" style="color: white;">Ajouter des nouveaux employes</a>
+    </div>
+</body>
+</html>
